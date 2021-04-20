@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Section */
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* text-align: center; */
+    background-color: grey;
+    height: 10vh;
+}
+
+.navigation h1{
+    /* justify-content: center;
+    text-align: center; */
+    display: inline;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.navigation ul li {
+    margin: 10px;
+}
+
+/* End of Navigation Section */
+
+.test-section{
+    background-color: #881717;
+}
