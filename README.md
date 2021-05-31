@@ -1,6 +1,7 @@
 # challenge-2-advanced-professional-portfolio
 
-This is a professional portfolio for Jeri Smith. In this portfolio you will find the following sections: about me, work, contact information, and a pdf resume.
+This is a professional portfolio of Sean M. Conway. 
+
 
 Built With
 
