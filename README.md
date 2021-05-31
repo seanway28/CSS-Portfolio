@@ -1,11 +1,15 @@
 # challenge-2-advanced-professional-portfolio
 
-his is a professional portfolio for Jeri Smith. In this portfolio you will find the following sections: about me, work, contact information, and a pdf resume.
+This is a professional portfolio for Jeri Smith. In this portfolio you will find the following sections: about me, work, contact information, and a pdf resume.
 
 Built With
+
 HTML
 CSS
+
+
 Acceptance Criteria
+
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
 THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
@@ -21,3 +25,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 [Deployed-App](https://seanway28.github.io/CSS-Portfolio/)
+
+Most recent project: Interstellar Wellness
+
+                (https://seanway28.github.io/InterstellarWellness/)
