@@ -12,17 +12,11 @@ html{
 
 .navigation{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
     /* text-align: center; */
     background-color: #6f7279;
     height: 7vh;
-}
-
-.navigation h1{
-    /* justify-content: center;
-    text-align: center; */
-    display: inline;
 }
 
 .navigation ul, .navigation .name-and-headshot {
@@ -35,6 +29,7 @@ html{
     height: 7vh;
     line-height: 7vh;
     text-align: center;
+    color: white;
 }
 
 .name-and-headshot img {
@@ -89,7 +84,7 @@ html{
 
 #contact .right-side {
     display: flex;
-    justify-content: spa;
+    /* justify-content: spa; */
 }
 
 .portfolio-images {
@@ -98,7 +93,7 @@ html{
 }
 
 .portfolio-img {
-    width: 300px;
+    width: 200px;
 }
 
 /* footer */
