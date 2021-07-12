@@ -76,6 +76,14 @@ html{
     justify-content: spa;
 }
 
+.portfolio-images {
+    display: flex;
+}
+
+.portfolio-img {
+    width: 300px;
+}
+
 /* footer */
 footer {
     background-color: #383d47;
