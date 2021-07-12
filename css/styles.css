@@ -81,6 +81,14 @@ html{
     background-color:#6f7279;
 }
 
+.right-side h3 {
+    margin-bottom: 15px 0 15px 0;
+}
+
+.right-side p {
+    margin: 15px 0 15px 0;
+}
+
 /* contact section */
 
 #contact .right-side {
@@ -91,6 +99,11 @@ html{
 .portfolio-images {
     display: flex;
     list-style: none;
+    align-items: center;
+}
+
+.portfolio-images h3 {
+    text-align: center;
 }
 
 .portfolio-img {
