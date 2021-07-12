@@ -25,10 +25,20 @@ html{
     display: inline;
 }
 
-.navigation ul {
+.navigation ul, .navigation .name-and-headshot {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+}
+
+.name-and-headshot {
+    height: 7vh;
+    line-height: 7vh;
+    text-align: center;
+}
+
+.name-and-headshot img {
+    margin-right: 20px;
 }
 
 .navigation ul li {
@@ -56,9 +66,13 @@ html{
 }
 
 .left-side {
-    background-color:rgb(238, 238, 36);
+    background-color:rgb(36, 181, 238);
     flex-grow: 1;
+    padding: 20px 20px 0 20px;
+}
 
+.left-side h2 {
+    color: white;
 }
 
 .right-side {
@@ -67,6 +81,8 @@ html{
     flex-wrap: wrap;
     max-width: 75%;
     min-width: 75%;
+    padding: 20px;
+    background-color:#6f7279;
 }
 
 /* contact section */
@@ -78,6 +94,7 @@ html{
 
 .portfolio-images {
     display: flex;
+    list-style: none;
 }
 
 .portfolio-img {
