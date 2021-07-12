@@ -12,32 +12,33 @@ html{
 
 .navigation{
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     justify-content: space-between;
     /* text-align: center; */
     background-color: #6f7279;
     height: 7vh;
+    line-height: 7vh;
 }
 
-.navigation ul, .navigation .name-and-headshot {
+.navigation ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
 
-.name-and-headshot {
-    height: 7vh;
-    line-height: 7vh;
-    text-align: center;
+.navigation ul li {
+    margin: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: 700;
     color: white;
 }
 
-.name-and-headshot img {
-    margin-right: 20px;
-}
-
-.navigation ul li {
-    margin: 10px;
+.name {
+    text-align: left;
+    color: white;
 }
 
 /* End of Navigation Section */
