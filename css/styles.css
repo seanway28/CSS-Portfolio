@@ -97,17 +97,23 @@ html{
 }
 
 .portfolio-images {
-    display: flex;
-    list-style: none;
     align-items: center;
+}
+
+.portfolio-images span {
+    display: inline-block;
+    vertical-align: top;
+    max-height: 300px;
 }
 
 .portfolio-images h3 {
     text-align: center;
+
 }
 
 .portfolio-img {
     width: 200px;
+    margin: 10px 20px 10px 20px;
 }
 
 /* footer */
