@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 html{
@@ -13,20 +13,34 @@ html{
 .navigation{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     /* text-align: center; */
-    background-color: #6f7279;
-    height: 7vh;
-    line-height: 7vh;
+    /* background-color: #6f7279; */
+    height:200px;
+    line-height:50px;
+    padding-right: 20px;
 }
 
-.navigation ul {
+.headshot {
+    border-radius: 1000px;
+    margin: 30px
+}
+
+.name-and-link-container {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    padding-top: 75px;
+}
+
+.navigation.nav-links {
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
 
-.navigation ul li {
+.nav-links>span{
     margin: 10px;
 }
 
@@ -36,16 +50,19 @@ html{
     color: white;
 }
 
+
+
 .name {
     text-align: left;
     color: white;
+    font-size: 60px;
 }
 
 /* End of Navigation Section */
 
 .backgroundImage{
     background: url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
-    height: 13vh;
+    height: 250;
 }
 
 .backgroundImage h2 {
@@ -61,6 +78,12 @@ html{
     flex-direction: row;
 }
 
+.article-link {
+    text-decoration: none;
+    color:rgb(36, 181, 238);
+    font-weight: 600;
+}
+
 .left-side {
     background-color:rgb(36, 181, 238);
     flex-grow: 1;
@@ -72,13 +95,14 @@ html{
 }
 
 .right-side {
-    background-color: rgb(177, 181, 187);
+    /* background-color: rgb(177, 181, 187); */
     flex-grow: 4;
     flex-wrap: wrap;
     max-width: 75%;
     min-width: 75%;
     padding: 20px;
-    background-color:#6f7279;
+    /* background-color:#6f7279; */
+    color: rgb(46, 46, 46);
 }
 
 .right-side h3 {
