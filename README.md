@@ -25,7 +25,7 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-[Deployed-App](https://seanway28.github.io/CSS-Portfolio/)
+Deployed Portfolio https://seanway28.github.io/challenge-2-advanced-professional-portfolio/
 
 Most recent project: Interstellar Wellness
 
